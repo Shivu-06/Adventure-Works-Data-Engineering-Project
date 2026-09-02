@@ -1,0 +1,47 @@
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.cer
+*.crt
+secrets/
+credentials/
+local.settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Large generated data
+*.parquet
+*.delta
+
+# Azure local configuration
+.azure/
